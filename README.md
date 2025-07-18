@@ -1,22 +1,51 @@
-🎯 Guess the Number – Web Edition
-Welcome to Guess the Number, a simple yet engaging web game where the player tries to guess a randomly generated number between 1 and 100. This project demonstrates DOM manipulation, event handling, and dynamic UI updates—all wrapped in clean, modular code.
-🚀 Features
-- 🎲 Random number generation on each game load
-- 🧠 Real-time feedback based on user input (too high/low/correct)
-- 🔄 Game reset functionality with updated random number
-- 📱 Responsive layout styled with CSS
-- 🧩 Modular JavaScript functions for clarity and scalability
-🛠️ Technologies Used
-- HTML – Page structure and user interface
-- CSS – Styling, layout, and responsive design
-- JavaScript – Game logic, event listeners, and DOM updates
-🎮 How to Play
-- Open index.html in your browser.
-- Enter your guess in the input box.
-- Press “Submit” and see if your guess is too low, too high, or spot on.
-- Guess correctly and restart using the “Play Again” button.
-🧠 What You’ll Learn
-- Basics of JavaScript logic and control flow
-- DOM element targeting and manipulation
-- CSS styling for feedback messages and layout
-- Structuring code for readability and reuse.
+# 🎯 Guess The Number Game
+
+A simple and interactive "Guess the Number" game built using **HTML**, **CSS**, and **JavaScript**. The game challenges players to guess a randomly generated number within a limited number of attempts. It's fun, responsive, and beginner-friendly!
+
+## 🕹️ How to Play
+
+- The game will generate a secret number between a defined range (e.g., 1 to 100).
+- You try to guess the number in as few attempts as possible.
+- After each guess, you’ll get a hint:
+  - "Too high"
+  - "Too low"
+  - Or "Correct!" when you guess it right.
+- The game ends once you guess correctly or run out of attempts.
+
+## 💻 Technologies Used
+
+- **HTML** – for the game structure
+- **CSS** – for styling the layout and visuals
+- **JavaScript** – for game logic, input handling, and interactivity
+
+## 📁 Project Structure
+```
+📦 guess-the-number-game/
+├── index.html      # Main HTML file
+├── style.css       # Styling with CSS
+└── script.js       # Game logic in JavaScript
+
+├── style.css       # Styling with CSS
+└── script.js       # Game logic in JavaScript
+```
+
+## ✨ Features
+
+- Random number generation
+
+- Real-time input feedback
+
+- Win/loss message system
+
+- Responsive design
+
+- Clean and beginner-friendly code
+
+
+## 🧠 Future Improvements
+
+- Add difficulty levels (easy, medium, hard)
+
+- Add timer or score counter
+
+- High score leaderboard using localStorage
