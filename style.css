@@ -1,0 +1,72 @@
+     body {
+         font-family: 'Lucida Sans';
+         color: white;
+         background-color: rgb(41, 41, 41);
+
+     }
+
+     .main {
+        height: 600px;
+        width:500px ;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         flex-wrap: wrap;
+         border: 1px solid rgb(232, 180, 255);
+         border-radius: 9px;
+     }
+     .form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+     }   
+     .guessfield {
+         display: flex;
+         color: black;
+         font-weight: bold;
+         font-size: larger;
+         margin-top: 10px;
+         height: 30px;
+         width: 150px;
+         background-color: #f4e512;
+         border-radius: 5px;
+      border: 2px solid rgb(112, 255, 196);
+     }
+     #subt{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-weight: 700;
+            font-size: small;
+            height: 30px;
+            width: 80px;
+            background-color: rgb(210, 197, 255);
+            border-radius: 5px;
+        }
+    .lowOrHi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         color: rgb(195, 0, 0,0.7);
+         font-weight: bold;
+         font-size: 14px;
+         height: 50px;
+         width: 250px;
+         border-radius: 5px;
+         background-color: bisque;
+    }
+    #New {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(18, 0, 36);
+            font-weight: 700;
+            font-size: medium;
+            height: 45px;
+            width: 130px;
+            background-color: rgb(210, 197, 255);
+            border-radius: 5px;
+        }
