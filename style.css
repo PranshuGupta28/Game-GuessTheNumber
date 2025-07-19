@@ -49,6 +49,10 @@
             background-color: rgb(210, 197, 255);
             border-radius: 5px;
         }
+      #subt:active  {
+        background-color: rgb(13, 0, 48);
+        color: rgb(199, 139, 255);
+      }
     .lowOrHi{
         display: flex;
         align-items: center;
